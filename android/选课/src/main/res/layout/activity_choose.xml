@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/courseNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="课程号1"/>
+    <EditText
+        android:id="@+id/courseId1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="课序号1"/>
+    <Button
+        android:id="@+id/choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始选课" />
+</LinearLayout>
